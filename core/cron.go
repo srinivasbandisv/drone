@@ -45,6 +45,7 @@ type (
 		Created  int64  `json:"created"`
 		Updated  int64  `json:"updated"`
 		Version  int64  `json:"version"`
+		Name1    string `json:"name"`
 	}
 
 	// CronStore persists cron information to storage.
